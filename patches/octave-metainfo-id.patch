@@ -1,0 +1,13 @@
+diff --git a/etc/icons/org.octave.Octave.metainfo.xml b/etc/icons/org.octave.Octave.metainfo.xml
+index 2c72fe15ba..3f46e24da2 100644
+--- a/etc/icons/org.octave.Octave.metainfo.xml
++++ b/etc/icons/org.octave.Octave.metainfo.xml
+@@ -24,7 +24,7 @@ along with Octave; see the file COPYING.  If not, see
+ 
+ -->
+ <component type="desktop-application">
+-  <id>org.octave.Octave.desktop</id>
++  <id>org.octave.Octave</id>
+   <metadata_license>FSFAP</metadata_license>
+   <project_license>GPL-3.0+</project_license>
+   <name>GNU Octave</name>
