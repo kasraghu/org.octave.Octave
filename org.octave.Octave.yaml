@@ -14,6 +14,7 @@ finish-args:
   - --share=network
   - --filesystem=host
   - --talk-name=com.canonical.AppMenu.Registrar # required for global menu
+  - --talk-name=org.freedesktop.Flatpak # allows spawning processes on the host via flatpak-spawn --host
   - --env=PATH=/app/bin:/usr/bin:/app/jre/bin
   - --env=CPPFLAGS=-I/app/include # required for building some Octave forge packages
   - --env=LDFLAGS=-L/app/lib # required for building some Octave forge packages
