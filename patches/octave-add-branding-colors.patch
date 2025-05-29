@@ -1,0 +1,28 @@
+From 2c3a90fa2da52ec05bc1e69f308b798c9542d3e3 Mon Sep 17 00:00:00 2001
+From: kasraghu <raghu@kasara.net>
+Date: Thu, 29 May 2025 10:36:34 +0200
+Subject: [PATCH] add branding colors
+
+---
+ etc/icons/org.octave.Octave.metainfo.xml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/etc/icons/org.octave.Octave.metainfo.xml b/etc/icons/org.octave.Octave.metainfo.xml
+index 2c72fe15ba..1a8ba79635 100644
+--- a/etc/icons/org.octave.Octave.metainfo.xml
++++ b/etc/icons/org.octave.Octave.metainfo.xml
+@@ -164,6 +164,11 @@ along with Octave; see the file COPYING.  If not, see
+     </p>
+   </description>
+ 
++  <branding>
++    <color type="primary" scheme_preference="light">#cccccc</color>
++    <color type="primary" scheme_preference="dark">#0e0e0e</color>
++  </branding>
++
+   <screenshots>
+     <!--
+       From: https://www.freedesktop.org/software/appstream/docs/
+-- 
+2.49.0
+
